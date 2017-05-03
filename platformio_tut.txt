@@ -1,0 +1,8 @@
+//make project
+platformio init --board uno
+
+//complie
+platformio run
+
+//upload
+platformio run --target upload
